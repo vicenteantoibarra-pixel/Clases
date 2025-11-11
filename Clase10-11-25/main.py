@@ -2,10 +2,10 @@ from clase.persona import Persona
 
 persona = Persona("Vicente","Ibarra","+56936833638","Inacap@gmail.cl")
 
-print(persona.getNombre())
+print(persona.Nombre)
 
-print(persona.getTelefono())
+print(persona.Telefono)
 
-print(persona.getCorreo())
+print(persona.Correo)
 
 persona.setCorreo("micorreo@miratu.cl")

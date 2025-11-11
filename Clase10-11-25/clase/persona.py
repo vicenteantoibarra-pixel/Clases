@@ -6,15 +6,19 @@ class Persona:
         self.__apellido = apellido
         self.__telefono = telefono
         self.__correo = correo
-        
-    def getNombre(self):
+   
+    @property
+    def Nombre(self):
         return f"{self.__nombre} {self.__apellido} "
     
-    def getTelefono (self):
+    @property
+    def Telefono (self):
         return f"{self.__telefono}"
     
-    def getCorreo (self):
+    @property
+    def Correo (self):
         return self.__correo  
+    
     
     def setCorreo (self,nuevo_correo):
         patron_correo = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
@@ -22,5 +26,6 @@ class Persona:
         if valido:
             self.__correo = nuevo_correo
        
+
 
         
