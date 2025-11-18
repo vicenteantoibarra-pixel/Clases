@@ -1,6 +1,9 @@
-from comprobantes import Documento
+from documento import Documento
+from comprobante import Comrpobante
 
-documento = Documento ("2025-11-17", 12)
+comprobante = Comrpobante (1,"2025-11-17",1234123321)
 
-print(documento.id)
+
+print(comprobante.monto)
+
 

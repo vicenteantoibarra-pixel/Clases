@@ -13,3 +13,7 @@ class Documento:
         if id  <0:
             raise Exception ("El ID debe ser mayor a '0' ")
         self.__id = id 
+    
+
+    
+    
