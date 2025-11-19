@@ -1,9 +1,7 @@
-from documento import Documento
-from comprobante import Comrpobante
+from factura import Factura
 
-comprobante = Comrpobante (1,"2025-11-17",1234123321)
+factura = Factura(1172,"2025-11-18",189999,"21474881-9")
 
-
-print(comprobante.monto)
+print(factura.resumen_factura)
 
 

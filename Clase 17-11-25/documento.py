@@ -13,6 +13,16 @@ class Documento:
         if id  <0:
             raise Exception ("El ID debe ser mayor a '0' ")
         self.__id = id 
+        
+    @property
+    def fecha (self):
+        return self.__fecha
+    
+    @fecha.setter
+    def fecha (self, fecha):
+        if fecha  <0:
+            raise Exception ("La Fecha debe ser mayor a '0' ")
+        self.__fecha = fecha 
     
 
     
